@@ -16,12 +16,6 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 Cypress.on("uncaught:exception", (err, runnable) => {
-<<<<<<< HEAD
   // returning false prevents Cypress from failing the test
   return false;
 });
-=======
-  // returning false here prevents Cypress from failing the test
-  return false;
-});
->>>>>>> a1295ac9d2d493c9248e2ec7fffe8a4689b4e171
