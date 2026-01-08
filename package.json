@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "reebok",
+=======
+  "name": "framework",
+>>>>>>> a1295ac9d2d493c9248e2ec7fffe8a4689b4e171
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

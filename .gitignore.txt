@@ -1,4 +1,9 @@
 node_modules/
+<<<<<<< HEAD
 cypress/screenshots/
 cypress/videos/
+=======
+cypress/videos/
+cypress/screenshots/
+>>>>>>> a1295ac9d2d493c9248e2ec7fffe8a4689b4e171
 .env
