@@ -45,5 +45,5 @@ describe("Login flow (Mobile number )- Reebok",()=>
 
         cy.contains("GET OTP").filter(":visible").should("be.enabled")
         
-    })
+    });
 });
