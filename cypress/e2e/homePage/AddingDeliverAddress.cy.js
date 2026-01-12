@@ -31,8 +31,7 @@ describe("Entering a valid delivery address", () => {
 
     // Optional: validate address applied
     cy.contains("Bengaluru").should("be.visible").click();
-   cy.contains("save location").should("be.visible").click().click().click();
+   cy.contains('button','save location').should("be.visible").click({force:true});
   });
-
 
 });
