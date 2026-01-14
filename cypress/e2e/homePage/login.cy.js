@@ -10,7 +10,7 @@ describe("Login flow (Mobile number )- Reebok",()=>
     it("Login page opens Successfully",()=>
     {
       
-        cy.contains("Log in").click({force:true});
+        cy.get('input[placeholder="Enter 10 digit mobile number"]').should("be.visible").click({force:true});
         cy.get("body").should("be.visible");
     });
 
