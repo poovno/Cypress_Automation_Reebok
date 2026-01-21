@@ -40,6 +40,6 @@ describe("Validating the Flex Links", () => {
     });
   }); 
 
-  
+  cy.ur().then(baseUrl);
 
 });
